@@ -12,9 +12,7 @@
     "typescript": "3.8.3"
   },
   "scripts": {
-    "release": "tsc && yarn jest && yarn publish"
+    "release": "tsc && yarn publish"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
