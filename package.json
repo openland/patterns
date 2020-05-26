@@ -11,6 +11,9 @@
     "ts-jest": "25.2.1",
     "typescript": "3.8.3"
   },
+  "scripts": {
+    "release": "tsc && yarn jest && yarn publish"
+  },
   "dependencies": {
     
   }
